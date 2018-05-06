@@ -7,12 +7,10 @@ body{
     margin-top: 5%;
 }
 
-
 /* Form Container */
 .formContainer{
     color: white;
-
-    width: 360px;
+    width: 320px;
     height: 400px;
 }
 
@@ -32,7 +30,6 @@ body{
     width: 30px;
     border-bottom: 4px solid #7AB55C;
     margin-bottom: 55px;
-
 }
 
 /* Form */
@@ -47,7 +44,6 @@ label{
 .error{
     color: #c23628;
     font-size: 14px;
-
     margin-bottom: -10px;
 }
 
@@ -58,7 +54,6 @@ label{
 
 input[type=email] {
     flex-grow: 2;
-   
     color:  #7b7b7b ;
     font-size: 14px;
     padding: 9px 15px;
@@ -87,7 +82,6 @@ input[type=submit]:hover {
 
 
 /* Thank You page */
-
 .thankYouPage{
     font-family: 'Roboto', sans-serif;    
 }
@@ -95,15 +89,14 @@ input[type=submit]:hover {
     display: none;
 }
 
-@media all and (min-width: 600px) {
+a{
+    color: lightblue;
+}
 
+
+@media all and (min-width: 600px) {
     /* Form Container */
     .formContainer{
-        color: white;
-
         width: 450px;
-        height: 400px;
     }
-
-
 }
