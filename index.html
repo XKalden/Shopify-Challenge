@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shopify Challenge</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- google Fonts Roboto (don't have font Helvetica :C ) -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+</head>
+
+<body>
+
+    <section class="formContainer">
+        <!-- Title -->
+        <div class="formTitle">
+            <h1>Stay up to data with ecommerece trends with Shopify's Newsletter</h1>
+            <span id="greenLine"></span>
+        </div>
+        
+        <!-- Form -->
+        <form id="theForm" action="" >
+
+            <label for="email">Subscribe for free marketing tips</label>
+            <br>
+            <div class="flexbox">
+                <input type="email" name="email" id="email_Id" placeholder="Email Address" required>
+
+                <div class="custom-select">
+                    <select name="select_interests" id="select_id" required>
+                            <option value="select">intersed in... </option>
+                            <option value="Marketing">Marketing</option>	
+                            <option value="WebDevelopment">Front End</option>        
+                            <option value="WebDevelopment">SEO</option>
+                    </select>
+                </div>
+            </div>
+            <p class="error"></p>
+            <br>
+                
+            <input class="btn" type="submit" value="Sign up now"></input>
+        </form>
+
+        <!-- Thank You Page -->
+        <div class="thankYouPage display">
+            <p> <strong>Thanks for subscribing</strong></p>
+            <p>You'll start receiving free trips and resources soon.</p>
+        </div>
+
+    </section>
+
+
+
+    <!-- Element Select Style -->
+    <link rel="stylesheet" href="./lib/select.css">
+    <script src="./lib/select.js"></script>
+
+    <!-- jquery CDN google -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./script.js"></script>
+    
+</body>
+</html>
